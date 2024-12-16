@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matcha Lab</title>
+  <link rel="stylesheet" href="styles.css">
+<style>
+  
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Free Shipping Banner */
+.shipping-banner {
+  background-color: #f8dada;
+  color: #333;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+/* Header */
+header {
+  background-color: #f4f0d9;
+  padding: 10px 20px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  font-style: italic;
+  color: #6a574e;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.cart a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Main Content */
+.main-content {
+  display: flex;
+  background-color: #f4f0d9;
+  padding: 20px;
+  gap: 20px;
+}
+
+/* Left Image Section */
+.image-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.main-image,
+.secondary-image {
+  width: 75%;
+  border-radius: 10px;
+}
+
+/* Right Text Section */
+.text-container {
+  flex: 1;
+}
+
+.best-seller h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.best-seller p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.october-special h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.october-special p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+</style>
+
+</head>
+<body>
+  <!-- Free Shipping Banner -->
+  <div class="shipping-banner">Free shipping on orders 50+</div>
+  
+  <!-- Header -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">m</div>
+      <ul class="nav-links">
+        <li><a href="matcha.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">FAQs</a></li>
+        <li><a href="#">My Account</a></li>
+      </ul>
+      <div class="cart">
+        <a href="#">Cart (0)</a>
+      </div>
+    </nav>
+  </header>
+  
+  <!-- Content Section -->
+  <section class="main-content">
+    <!-- Left Section with Images -->
+    <div class="image-container">
+      <img src="pic2.jpg" alt="Matcha Drink" class="main-image">
+      <img src="pic3.jpg" alt="Matcha Bowl" class="secondary-image">
+    </div>
+
+    <!-- Right Section with Text -->
+    <div class="text-container">
+      <div class="best-seller">
+        <h2>Best Seller</h2>
+        <p>Labs Dew Matcha – Organic Premium Ceremonial Grade from Japan Matcha Green Tea Powder – Radiation Free, Non Fillers, Zero Sugar – USDA & JAS Certified Organic 30g (1oz) Tin</p>
+      </div>
+      <div class="october-special">
+        <h3>October's Special</h3>
+        <p>Iced Matcha Latte with oat milk and vanilla syrup.</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

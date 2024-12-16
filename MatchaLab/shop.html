@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matcha Lab Starter Kit</title>
+    <link rel="stylesheet" href="styles.css">
+<style type="text/css">
+
+    /* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f8f3e6;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Top Banner */
+.top-banner {
+    background-color: #f8d8d3;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 14px;
+    color: #000;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #f8f3e6;
+    padding: 10px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.cart {
+    font-size: 14px;
+}
+
+/* Introduction Section */
+.intro {
+    text-align: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+/* Starter Kit Section */
+.starter-kit {
+    text-align: center;
+    padding: 20px;
+}
+
+.starter-kit h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+/* Product Container */
+.product-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1000px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-image img {
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+.product-info {
+    text-align: left;
+    max-width: 300px;
+}
+
+.product-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-info p {
+    margin-bottom: 10px;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 20px;
+    color: #333;
+}
+
+.quantity-cart {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.quantity-cart input {
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.add-to-cart {
+    background-color: #7da057;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.add-to-cart:hover {
+    background-color: #688e46;
+}
+</style>
+</head>
+<body>
+    <!-- Top Banner -->
+    <div class="top-banner">
+        <p>free shipping on orders 50+</p>
+    </div>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">m</div>
+            <ul class="nav-links">
+                <li><a href="matcha.html">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="second.html">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">My Account</a></li>
+            </ul>
+            <div class="cart">🛒 Cart (0)</div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="intro">
+            <p>
+                Experience the finest premium matcha sourced directly from Japan’s top tea gardens. 
+                Our commitment to sustainability and quality ensures you enjoy rich flavor and health 
+                benefits in every cup. Trust us to elevate your wellness routine with matcha you can rely on!
+            </p>
+        </section>
+
+        <section class="starter-kit">
+            <h1>New to Matcha? Start Here</h1>
+            <div class="product-container">
+                <div class="product-image">
+                    <img src="pic5.jpg" alt="Matcha Starter Kit">
+                </div>
+                <div class="product-info">
+                    <h2>Matcha Lab’s Starter Kit</h2>
+                    <p>Ceremonial Grade Japanese matcha + whisk and bowl set</p>
+                    <p class="price">$ 54.00</p>
+                    <div class="quantity-cart">
+                        <label for="qty">QTY</label>
+                        <input type="number" id="qty" value="1" min="1">
+                        <button class="add-to-cart">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
